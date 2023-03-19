@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(219, 212, 212);
+}
+.first{
+    width: 1100px;
+    height: 550px;
+    display: flex;
+    margin-top: 100px;
+    background-color:rgb(255, 255, 255);
+    font-size: 12px;
+}
+.first:hover{
+    box-shadow: whitesmoke;
+}
+.navbar img{
+    margin-top: 8px;
+    margin-right:120px;
+    width: 70px;
+    height: 30px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.navbar nav{
+    display: flex;
+    width:100%;
+    height: 50px;
+}
+.navbar nav ul{
+    margin-left: 50px;
+}
+.navbar nav li{
+    list-style: none;
+    margin:10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(5, 85, 5);
+}
+.one{
+    background-color: white;
+    width: 650px;
+    height: 550px;
+}
+.write{
+    width: 350px;
+    height: 400px;
+    align-items: center;
+    color: rgb(31, 81, 31);
+    margin: 80px;
+}
+.p-head p b{
+    margin-top: -8px;
+    font-size: 12px;
+}
+.p-tail{
+    margin-top: 10px;
+    font-size: 13px;
+    /* border: 1px solid black; */
+    color: rgb(5, 85, 5);
+}
+.write h2{
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1.1;
+    color: rgb(5, 85, 5);
+}
+.write span{
+    margin-left: -10px;
+}
+.write span button{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px 30px 30px 30px;
+    margin: 10px;
+    border: none;
+    margin-top: 24px;
+}
+.write span button:first-child{
+    background-color: rgb(224, 55, 55);
+    color: white;
+}
+.write span button:nth-child(2){
+    background-color: #9be3bf;
+    color: green;
+}
+.two{
+    display: flex;
+    /* flex-direction: row; */
+    width:450px;
+    height: 550px;
+    background-color: rgb(22, 85, 54);
+    border-radius: 0px 0px 0px 110px;
+}
+.two .navv{
+    width: 100%;
+    height: 40px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.two span{
+    margin-right: 50px;
+    margin-left: -30px;
+}
+.two button{
+    background-color:#9be3bf;
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+}
+.two span button{
+    width: 108px;
+    height: 38px;
+    color: rgb(10, 80, 10);
+}
+.two h3{
+    margin-top: 10px;
+    color: white;
+    margin-left: 70px;
+}
+.two h3 button{
+    width: 20px;
+    color: rgb(9, 95, 9);
+}
+.onee div{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color:transparent;
+}
+.twoo div{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color:transparent;
+}
+.A1{
+    width: 200px;
+    height: 200px;
+}
+.A1 img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.A2{
+    width: 200px;
+    height:200px;
+    background-color: rgb(160, 238, 238);
+}
+.A2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 0px 0px 0px 70px;
+}
+.A3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(49, 205, 205);
+    border: 0px 70px 0px 0px;
+}
+.A3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 0px 70px 0px 0px;
+}
+.A4{
+    width: 200px;
+    height: 200px;
+}
+.A4 img{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+   margin-left: -500px;
+    margin-top: 70px;
+}
